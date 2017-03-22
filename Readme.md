@@ -25,7 +25,7 @@ int main() {
 
 # Installation
 
-**Add libMmkFormat to your project via nuget.  Done!**
+Add [libMmkFormat](https://www.nuget.org/packages/libMmkFormat/) to your project via nuget.  Done!
 
 Alternatively, clone and add [libMmkFormat/include/](libMmkFormat/include/) to your #include paths.
 There is currently no source/.lib/.dll/.a/.so component to worry about.
