@@ -5,10 +5,10 @@
 		<version>0.0.0</version>
 		<authors>MaulingMonkey</authors>
 		<owners>MaulingMonkey</owners>
-		<!--<licenseUrl>https://github.com/MaulingMonkey/MaulingMonkey.Build.Sln/blob/master/LICENSE.txt</licenseUrl>-->
-		<!--<projectUrl>https://github.com/MaulingMonkey/MaulingMonkey.Build.Sln/</projectUrl>-->
+		<licenseUrl>https://github.com/MaulingMonkey/libMmkFormat/blob/master/LICENSE.txt</licenseUrl>
+		<projectUrl>https://github.com/MaulingMonkey/libMmkFormat</projectUrl>
 		<!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
-		<!--<requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>MaulingMonKey's Format Macros.
 
 Currently just provides MMK_FORMAT_TRUNC(name, length, format, ...) shorthand with all the warnings turned up.</description>
