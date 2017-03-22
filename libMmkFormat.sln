@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mmkFormatTest", "mmkFormatTest\mmkFormatTest.vcxproj", "{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libMmkFormat", "libMmkFormat\libMmkFormat.vcxproj", "{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{6BB7AAAD-A352-4EE0-801B-3CF566907D6F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		libMmkFormat\libMmkFormat.props = libMmkFormat\libMmkFormat.props
+		Makefile = Makefile
+		mmkFormatTest\mmkFormatTest.props = mmkFormatTest\mmkFormatTest.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{5B0C1942-3B2C-4CE1-8FEE-634CD0C6D008}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packaging (nupkg)", "Packaging (nupkg)", "{107C4D97-A078-41B0-87C4-B231B15A6025}"
+	ProjectSection(SolutionItems) = preProject
+		libMmkFormat.nuspec = libMmkFormat.nuspec
+		nupkg\build\native\libMmkFormat.targets = nupkg\build\native\libMmkFormat.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Debug|x64.ActiveCfg = Debug|x64
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Debug|x64.Build.0 = Debug|x64
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Debug|x86.ActiveCfg = Debug|Win32
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Debug|x86.Build.0 = Debug|Win32
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Release|x64.ActiveCfg = Release|x64
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Release|x64.Build.0 = Release|x64
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Release|x86.ActiveCfg = Release|Win32
+		{A412B0C9-9C1E-49DE-BCCB-66C593F2E116}.Release|x86.Build.0 = Release|Win32
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Debug|x64.ActiveCfg = Debug|x64
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Debug|x64.Build.0 = Debug|x64
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Debug|x86.Build.0 = Debug|Win32
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Release|x64.ActiveCfg = Release|x64
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Release|x64.Build.0 = Release|x64
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Release|x86.ActiveCfg = Release|Win32
+		{3FC3E67E-4454-42B4-AFA4-8F33D671DEAC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
